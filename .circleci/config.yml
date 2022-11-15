@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: node --version
       
-  workflows:
-    test-workflow:
-      jobs:
-        - build
+workflows:
+  test-workflow:
+    jobs:
+      - build
